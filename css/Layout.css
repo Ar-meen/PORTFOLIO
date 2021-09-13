@@ -1,0 +1,84 @@
+.container {
+    border: 5px solid black;
+}
+
+.row {
+    border: 3px solid red;
+}
+
+.col,
+.col-1,
+.col-2,
+.col-3.col-4,
+.col-5,
+.col-6.col-7,
+.col-8,
+.col-9.col-10,
+.col-11,
+.col-12 {
+    border: 3px solid green;
+}
+
+body {
+    background-color: grey;
+}
+
+#header {
+    background-color: orange;
+}
+
+#Social-Links {
+    background-color: pink;
+}
+
+#Social-Links a {
+    color: black;
+    padding: 0 10px;
+
+}
+
+#Social-Links ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#menu {
+    background-color: pink;
+}
+
+#menu a {
+    color: black;
+    padding: 5px 20px;
+    border-right: 0.1px solid rgb(107, 100, 100);
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#content {
+    background-color: white;
+}
+
+#sidebar {
+    background-color: lightblue;
+}
+
+#footer {
+    background-color: orange;
+}

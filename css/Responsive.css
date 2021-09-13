@@ -1,0 +1,277 @@
+a:hover {
+    text-decoration: none;
+    /*a ki underline remove hojayegi*/
+}
+
+.section {
+    padding-top: 70px;
+    /* jtni bhi section name ki class hgi us mai upr or nechy sai equal padding a jayegi*/
+    padding-bottom: 70px;
+}
+
+.section h2.section-head {
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+    display: inline block;
+}
+
+.section h2.section-head:after {
+    background-color: #e74c3c;
+    content: "";
+    display: block;
+    /*div ki trhan work kryga*/
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#header {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+#logo {
+    font-size: 2rem;
+    margin-top: 3px;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu li a:hover {
+    background-color: #c0392b;
+    /* hover krun tou ye color show ho*/
+}
+
+#banner {
+    background: url('../Images/Banner.jpg') no-repeat 0 0;
+    /*css k folder k bahar image ka folder us k liyee 2 times dot than slash then image ka folder name then us k andr ki image.extension.. ye image phr use nh krni kahin or tou us k liye no repeat or x or y zero set krdya hai*/
+    background-size: cover;
+    /* jis size k screen pai ly jayengy vo us k lehaz sai fit hojayega*/
+}
+
+#banner-title {
+    padding-top: 5rem;
+}
+
+.banner-title h1 {
+    background: rgba(255, 255, 255, 0.8);
+    /* white k lie 255 or end mai thora transparent k liye 0.8*/
+    display: inline-block;
+    /*h1 mai display block hta by default but yahan display inline block krdya hai tou iski width vahin tk ho jahan tak test lhtm hora hai*/
+    padding: 10px;
+    margin: 0;
+    /*heading by default margin set hta hai tou usko 0 krdya*/
+}
+
+.banner-title p.lead {
+    color: #fff;
+    background-color: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+}
+
+.service-box {
+    text-align: center;
+}
+
+.service-box i.fas {
+    color: #c0392b;
+    font-size: 70px;
+    margin-bottom: 15px;
+    /*is k nechy jo heading ari hai or icon dono chipky nh*/
+}
+
+#testimonials {
+    color: #fff;
+    background: url('../Images/testimonial.jfif') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+
+}
+
+#testimonials:before {
+    background: rgba(52, 73, 94, 0.1);
+    content: "";
+    position: absolute;
+    /*backgroun image k upar lagana hai text k pichy */
+    top: 0;
+    width: 100%;
+    /*height or width utni hi deni hai jtni testimonial ka jtna width or height hai tou vo brh bhi skti hai or km bhi hoskti hai is liye usko set krdya width 100%*/
+    /* 100% absolute mai kam krti hai otherwise nh*/
+    height: 100%;
+}
+
+.testimonial img {
+    border-radius: 50%;
+}
+
+.news-post {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3 {
+    font-size: 1.35rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.news-post h3 a {
+    color: #c0392b;
+}
+
+.post-date {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+
+
+.post-date i.fas {
+    margin-right: 5px;
+    font-size: small
+}
+
+a.readmore {
+    font-size: 14px;
+    color: #e74c3c;
+}
+
+a.readmore i.fas {
+    padding-left: 5px;
+    font-size: small;
+}
+
+#news img {
+    width: 100%;
+    height: 100%;
+}
+
+#footer-sidebar {
+    color: white;
+    background-color: #34495e;
+    padding: 20px 0;
+}
+
+.footer-widget h4:after {
+    content: "";
+    background: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 7px 0;
+
+}
+
+.footer-widget a {
+    color: white;
+}
+
+.latest-news {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.latest-news li {
+    margin-bottom: 5px;
+}
+
+.latest-news i.fas {
+    padding-right: 5px;
+    font-size: small;
+}
+
+#footer {
+    color: white;
+    background: #2c3e50;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#social-icons {
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#social-icons li {
+    display: inline-block;
+    padding-left: 5px;
+
+}
+
+#social-icons li a {
+    color: #fff;
+    font-size: 15px;
+}
+
+@media (max-width:992px) {
+    .news-post {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+    #logo {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #menu {
+        text-align: center;
+    }
+
+    .banner-title {
+        padding-top: 0;
+    }
+
+    .banner-title h1 {
+        font-size: 1.7rem;
+    }
+
+    .section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .testimonial {
+        text-align: center;
+    }
+
+    .footer-widget {
+        margin-bottom: 20px;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    #social-icons {
+        margin-top: 10px;
+    }
+
+    .service-box {
+        margin-bottom: 30px;
+    }
+
+}

@@ -1,0 +1,33 @@
+.container {
+    border: 3px solid black;
+}
+
+.row {
+    border: 3px solid red;
+
+}
+
+#col5 {
+    background-color: pink;
+
+}
+
+#col3 {
+    background-color: blue;
+}
+
+#Orange {
+    background-color: orange;
+}
+
+#Pink {
+    background-color: pink;
+}
+
+#Blue {
+    background-color: blue;
+}
+
+#Green {
+    background-color: green;
+}
